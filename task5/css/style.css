@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.team-title{
+    margin-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.team-line{
+    width: 40px;
+    height: 3px;
+    margin: auto;
+    background-color: rgb(93, 168, 197);
+}
+/*****************************************************/
+.team-container{
+    width: 80%;
+    margin: auto;
+}
+.team-parent{
+    overflow: auto;
+    margin-top: 50px;
+    
+}
+.team-item{
+    float: left;
+    background-color: rgb(236, 236, 235);
+    width: 30%;
+    padding: 20px 15px;
+    text-align: center;
+    position: relative;
+}
+.team-item::after{
+    position: absolute;
+    content: " ";
+
+    width: 0%;
+    height: 0%;
+
+    top: 0;
+    left: 0;
+
+    background-color: black;
+    opacity: 0;
+    transition: 1s;
+}
+.team-item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;  
+}
+.team-item2{
+    margin: 0px 5%;
+}
+.team-image{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    height: 230px;   
+}
+.team-image img{
+    width: 100%;
+    height: 100%;    
+}
+.team-icon{
+    position: absolute;
+    left: 0;
+    bottom:0 ;
+    top:0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.465);
+    visibility: hidden;
+    opacity: 0;
+    transition:  1s;
+    z-index: 2;
+    
+}
+.team-item:hover .team-icon{
+    visibility: visible;
+    opacity: 1;
+}
+.team-icon a{
+    display: block;
+    background-color:rgb(113, 205, 241);
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    opacity: 0.79;  
+}
+.team-icon i{
+    color:white;
+    font-size: 20px;
+    line-height: 40px;   
+}
+.team-icon a:hover{
+    opacity: 0.9;
+}
+.team-info-title{
+    text-transform: capitalize;
+    color: black;
+}
+.team-info-p{
+    font-weight: bold;
+    color: rgb(88, 87, 87);
+}
+.team-item:hover .team-info-p{
+    color: rgb(93, 168, 197);
+}
+.team-item:hover .team-info-title{
+    color: rgb(98, 97, 97);
+}

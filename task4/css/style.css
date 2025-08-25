@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(250, 250, 254, 0.714);
+    padding: 20px 5px;
+    text-transform: uppercase;
+}
+.sec1{
+   text-align: center;   
+}
+.sec1-p1{
+    width: 20%;
+    text-align: left;
+    background-color: rgb(220, 235, 247);
+    color:rgba(26, 28, 117) ;
+    padding: 5px 0px;
+    margin: 15px 0px;
+    font-weight: bold;
+    border: 0.5px solid rgb(192, 191, 191);  
+}
+
+.sec1-p2{
+    letter-spacing: 3.5px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-size: 19px;
+    background-color: rgb(220, 235, 247);
+    color:rgba(26, 28, 117) ;
+    border: 20px solid rgb(46, 47, 120) ;   
+}
+.sec1-style{
+    height: 25px;
+    background-color: rgb(220, 235, 247);
+    border: 1px solid rgb(107, 107, 113) ;
+}
+
+h2{
+    background-color: rgba(26, 28, 117, 0.92);
+    border: 0.5px solid rgb(192, 191, 191); 
+    color: white;
+    padding: 10px; 
+}
+h2:hover{
+    color: rgba(26, 28, 117, 0.92);
+    background-color: rgb(220, 235, 247);
+}
+.sec1-p1:hover , .sec1-p2:hover , .sec2 p:hover{
+    background-color: rgba(26, 28, 117, 0.92); 
+    color: white;
+}
+.sec1-p1 , .sec1-p2 , h2 {
+    border-left: none;
+    border-right: none;
+}
+.sec2{
+    background-image: url(../images/lovepik-blue-technology-background-image_401694393.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;  
+    padding: 15px;
+    margin-top: 15px;
+}
+.sec2-container{
+    width: 47%;
+    margin: auto;
+    background-color: rgb(220, 235, 247);
+    border-radius: 10px;
+    padding: 10px 0px;    
+}
+img{
+    border-radius: 50%;
+}
+.sec2 p{
+    word-spacing: 4.5px;
+    line-height: 25px;
+}
+h3{
+    margin: 10px 0px;
+    color: rgba(21, 23, 100, 0.92);
+}
+.sec2-icon{
+    padding: 20px 0px 5px 0px;
+}
+a{
+    font-size: 22px;  
+    background-color: rgba(26, 28, 117, 0.85);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    padding: 7px;
+    margin-left: 5px;
+}
+a:hover{
+    background-color: rgba(26, 28, 117, 0.99);
+}
+i{
+    color: white;
+}
