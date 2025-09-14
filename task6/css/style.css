@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/B6WRom.jpg);
+    background-size: cover;
+}
+.cars{
+    width: 20vw;
+    height: 100vh;
+    position: relative;
+}
+.left-cars{
+    float: left;
+    left: 0;
+}
+.right-cars{
+    float: right;
+
+}
+img{
+    width: 100%;
+    height: 12vh;
+    position: absolute;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.left-cars .car1{
+    top:2vh;
+}
+.left-cars .car2{
+    animation-delay: 6s;
+    top: 26vh;
+}
+.left-cars .car3{
+    animation-delay: 12s;
+    top: 50vh;
+}
+.left-cars .car4{
+    animation-delay: 18s;
+    top: 74vh;
+}
+
+.left-cars img{
+    animation-name: leftcars;       
+}
+@keyframes leftcars{
+    0%{   
+        left: 0;
+    }
+    100%{
+        left: 80vw;
+    }
+}
+.right-cars .car1{
+    top:14vh;
+    animation-delay: 3s;
+}
+.right-cars .car2{
+    animation-delay: 9s;
+    top: 38vh;
+}
+.right-cars .car3{
+    animation-delay: 15s;
+    top: 62vh;
+}
+.right-cars .car4{
+    animation-delay: 21s;
+    top: 86vh;
+}
+
+.right-cars img{
+    animation-name: rightcars;       
+}
+@keyframes rightcars{
+    0%{   
+        right: 0;
+    }
+    100%{
+        right: 80vw;
+    }
+}
